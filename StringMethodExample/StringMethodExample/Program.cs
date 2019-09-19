@@ -18,7 +18,7 @@ namespace StringMethodExample
 
             for (int i = 0; i < answer.Length; i++)
             {
-                Console.WriteLine(answerASBIGLETTERS[i] + " ");
+                Console.Write(answerASBIGLETTERS[i] + " ");
             }
             
             Console.WriteLine($"Your favorite word has {answer.Length} characters in it");
