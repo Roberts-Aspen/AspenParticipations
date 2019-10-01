@@ -9,6 +9,7 @@ namespace Grades
     class Program
     {
         static void Main(string[] args)
+            //Look at professors EX this is wrong
         {
 
             List<Int32> gradeList = new List<Int32>();
