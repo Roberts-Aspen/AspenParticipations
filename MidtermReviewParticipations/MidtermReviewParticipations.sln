@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticipationSumof3", "Midt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinToss", "CoinToss\CoinToss.csproj", "{6AAE10B2-20C5-4F72-9828-9CEEA6B382B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessANumber", "GuessANumber\GuessANumber.csproj", "{81596F7D-07FC-4DEE-B719-857F93E888D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{C781AB8A-6BE1-42BA-85F3-CBA9EED9148E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6AAE10B2-20C5-4F72-9828-9CEEA6B382B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAE10B2-20C5-4F72-9828-9CEEA6B382B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAE10B2-20C5-4F72-9828-9CEEA6B382B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81596F7D-07FC-4DEE-B719-857F93E888D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81596F7D-07FC-4DEE-B719-857F93E888D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81596F7D-07FC-4DEE-B719-857F93E888D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81596F7D-07FC-4DEE-B719-857F93E888D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C781AB8A-6BE1-42BA-85F3-CBA9EED9148E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C781AB8A-6BE1-42BA-85F3-CBA9EED9148E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C781AB8A-6BE1-42BA-85F3-CBA9EED9148E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C781AB8A-6BE1-42BA-85F3-CBA9EED9148E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
