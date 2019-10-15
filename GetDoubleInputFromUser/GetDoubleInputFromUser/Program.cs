@@ -18,19 +18,13 @@ namespace GetDoubleInputFromUser
     {
         static double GetDoubleInputFromUser(string msg)
         {
-            return 5;
-
-        }
-        static void Main(string[] args)
-        {
-            string sentence = "Please input a value.";
             string userInput;
             string validOrNot;
             double newVal;
 
             do
             {
-                Console.WriteLine(sentence);
+                Console.WriteLine(msg);
                 userInput = Console.ReadLine();
 
                 bool valid = double.TryParse(userInput, out newVal);
@@ -46,8 +40,19 @@ namespace GetDoubleInputFromUser
 
             } while (validOrNot == "not");
 
-            double calc = newVal * 5;
-            Console.WriteLine($"{userInput} * 5 = {calc}");
+            return newVal;
+
+        }
+        static void Main(string[] args)
+        {
+            string msg = "Please input a value.";
+            
+
+            double calc = GetDoubleInputFromUser(msg);
+
+            Console.WriteLine($" {calc} * 5 = {calc * 5}");
+            calc = GetDoubleInputFromUser("Get GPA");
+            Console.WriteLine($" {calc} * 5 = {calc * 5}");
             Console.ReadKey();
             
         }
