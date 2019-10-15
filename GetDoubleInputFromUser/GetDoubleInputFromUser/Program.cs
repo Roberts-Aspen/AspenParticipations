@@ -47,7 +47,7 @@ namespace GetDoubleInputFromUser
             } while (validOrNot == "not");
 
             double calc = newVal * 5;
-            Console.WriteLine($"5 * {userInput} = {calc}");
+            Console.WriteLine($"{userInput} * 5 = {calc}");
             Console.ReadKey();
             
         }
