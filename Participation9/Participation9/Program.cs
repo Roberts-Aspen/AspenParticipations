@@ -12,7 +12,8 @@ namespace Participation9
         {
             double calculation = 0;
             string answer;
-            string send = developerInformation;
+
+            DeveloperInformation("Aspen Roberts", "MIS 3013", "October 17th, 2019");
 
             do
             {
@@ -83,7 +84,7 @@ namespace Participation9
         {
             Console.WriteLine(developerName + " " + className + " " + dateOfWriting);
 
-            return developerName + className + dateOfWriting;
+            return;
         }
     }
 }
