@@ -23,6 +23,14 @@ namespace Participation10Classes
 
             Console.WriteLine($"Rectangle 2 with {rect2.Length} length and {rect2.Width} width has a perimeter of {rect2.CalculatePerimeter()} and an area of {rect2.CalculateArea()}");
 
+            Circle circ1 = new Circle();
+            circ1.Radius = 5.5;
+            double area1 = circ1.CalculateArea();
+            double perimeter1 = circ1.CalculatePerimeter();
+
+            Console.WriteLine($"Circle 1 with {circ1.Radius} radius has a perimeter of {circ1.CalculatePerimeter()} and an area of {circ1.CalculateArea()}");
+
+
             Console.ReadKey();
         }
     }
