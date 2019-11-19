@@ -57,13 +57,19 @@ namespace _P__SQL_Client
                             awesomeMovie.title = Convert.ToString(reader[4]);
                             awesomeMovie.imdb = Convert.ToString(reader[5]);
                             var col1 = reader[0]; //gets first column returned
-                            ListMovies.Items.Add(awesomeMovie.ToString());  //col1.ToString() + reader[2].ToString());  // Perform stuff for each ROW // OR INSTANCE
+                            ListMovies.Items.Add(awesomeMovie);  //col1.ToString() + reader[2].ToString());  // Perform stuff for each ROW // OR INSTANCE
 
                         }
                     }
                 }
             }
 
+        }
+
+        private void ListMovies_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var movie = (Movie)ListMovies.SelectedItem;
+            Web.Navigate(movie.imdb);
         }
     }
 }
