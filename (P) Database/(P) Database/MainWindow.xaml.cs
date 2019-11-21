@@ -46,7 +46,15 @@ namespace _P__Database
 
             foreach (var game in db.FootballSchedules.Where(fb => fb.Season == selectedSeason))
             {
+                if (game.IsHomeGame == true)
+                {
+                    home.Items.Add(game.Opponent);
+                }
 
+                else
+                {
+                    away.Items.Add(game.Opponent);
+                }
             }
         }
     }
